@@ -1,0 +1,169 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexLead.Property.Test", "NexLead.Property.Test\NexLead.Property.Test.csproj", "{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpPoster", "I:\NexPlatform\Repos\HttpPoster\HttpPoster\HttpPoster.csproj", "{46B31AE4-8B2D-48C9-9590-B908DCB192A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexLead.Property.Data", "I:\NexPlatform\Repos\NexLead.Property\NexLead.Property.Data\NexLead.Property.Data.csproj", "{0F253AB3-77E1-4BBE-9D92-49C8F630475E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexLead.Property.Infrastructure", "I:\NexPlatform\Repos\NexLead.Property\NexLead.Property.Infrastructure\NexLead.Property.Infrastructure.csproj", "{9D11BA5F-8322-4374-A1AA-597FE756770E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexLead.Property.Utils", "I:\NexPlatform\Repos\NexLead.Property\NexLead.Property.Utils\NexLead.Property.Utils.csproj", "{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexLead.Property.Services", "I:\NexPlatform\Repos\NexLead.Property\NexLead.Property.Services\NexLead.Property.Services.csproj", "{D333C8FA-3922-45AC-BD86-1A421162C396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySql.AspNet.Identity", "I:\NexPlatform\Repos\NexLead.Property\MySql.AspNet.Identity\MySql.AspNet.Identity.csproj", "{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexLead.Property.Web", "I:\NexPlatform\Repos\NexLead.Property\HyperQB.Property.Lead\NexLead.Property.Web.csproj", "{B511A56A-6295-4547-A855-57F523748BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AWS Rimbayu Check In|Any CPU = AWS Rimbayu Check In|Any CPU
+		CWS Dev Check In|Any CPU = CWS Dev Check In|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		HBL Lead Prod|Any CPU = HBL Lead Prod|Any CPU
+		NexLead|Any CPU = NexLead|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Setia Eco Park Lead|Any CPU = Setia Eco Park Lead|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.AWS Rimbayu Check In|Any CPU.ActiveCfg = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.AWS Rimbayu Check In|Any CPU.Build.0 = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.CWS Dev Check In|Any CPU.ActiveCfg = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.CWS Dev Check In|Any CPU.Build.0 = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.HBL Lead Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.HBL Lead Prod|Any CPU.Build.0 = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.NexLead|Any CPU.ActiveCfg = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.NexLead|Any CPU.Build.0 = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Setia Eco Park Lead|Any CPU.ActiveCfg = Release|Any CPU
+		{E90FE3C5-F8F3-4081-9C8A-94A4E379AEA3}.Setia Eco Park Lead|Any CPU.Build.0 = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.AWS Rimbayu Check In|Any CPU.ActiveCfg = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.AWS Rimbayu Check In|Any CPU.Build.0 = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.CWS Dev Check In|Any CPU.ActiveCfg = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.CWS Dev Check In|Any CPU.Build.0 = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.HBL Lead Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.HBL Lead Prod|Any CPU.Build.0 = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.NexLead|Any CPU.ActiveCfg = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.NexLead|Any CPU.Build.0 = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Setia Eco Park Lead|Any CPU.ActiveCfg = Release|Any CPU
+		{46B31AE4-8B2D-48C9-9590-B908DCB192A7}.Setia Eco Park Lead|Any CPU.Build.0 = Release|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.AWS Rimbayu Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.AWS Rimbayu Check In|Any CPU.Build.0 = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.CWS Dev Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.CWS Dev Check In|Any CPU.Build.0 = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.HBL Lead Prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.HBL Lead Prod|Any CPU.Build.0 = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.NexLead|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.NexLead|Any CPU.Build.0 = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Setia Eco Park Lead|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F253AB3-77E1-4BBE-9D92-49C8F630475E}.Setia Eco Park Lead|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.AWS Rimbayu Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.AWS Rimbayu Check In|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.CWS Dev Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.CWS Dev Check In|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.HBL Lead Prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.HBL Lead Prod|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.NexLead|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.NexLead|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Setia Eco Park Lead|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BA5F-8322-4374-A1AA-597FE756770E}.Setia Eco Park Lead|Any CPU.Build.0 = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.AWS Rimbayu Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.AWS Rimbayu Check In|Any CPU.Build.0 = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.CWS Dev Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.CWS Dev Check In|Any CPU.Build.0 = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.HBL Lead Prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.HBL Lead Prod|Any CPU.Build.0 = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.NexLead|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.NexLead|Any CPU.Build.0 = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Setia Eco Park Lead|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F01EF-44BC-4E7B-BC5F-0AEA02427A7A}.Setia Eco Park Lead|Any CPU.Build.0 = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.AWS Rimbayu Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.AWS Rimbayu Check In|Any CPU.Build.0 = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.CWS Dev Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.CWS Dev Check In|Any CPU.Build.0 = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.HBL Lead Prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.HBL Lead Prod|Any CPU.Build.0 = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.NexLead|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.NexLead|Any CPU.Build.0 = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Setia Eco Park Lead|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C8FA-3922-45AC-BD86-1A421162C396}.Setia Eco Park Lead|Any CPU.Build.0 = Debug|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.AWS Rimbayu Check In|Any CPU.ActiveCfg = AWS Rimbayu Check In|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.AWS Rimbayu Check In|Any CPU.Build.0 = AWS Rimbayu Check In|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.CWS Dev Check In|Any CPU.ActiveCfg = CWS Dev Check In|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.CWS Dev Check In|Any CPU.Build.0 = CWS Dev Check In|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.HBL Lead Prod|Any CPU.ActiveCfg = HBL Lead Prod|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.HBL Lead Prod|Any CPU.Build.0 = HBL Lead Prod|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.NexLead|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.NexLead|Any CPU.Build.0 = Debug|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Setia Eco Park Lead|Any CPU.ActiveCfg = Setia Eco Park Lead|Any CPU
+		{EC3ADD94-5E1D-4A5F-BE06-788AC6C0E252}.Setia Eco Park Lead|Any CPU.Build.0 = Setia Eco Park Lead|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.AWS Rimbayu Check In|Any CPU.ActiveCfg = Debug|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.AWS Rimbayu Check In|Any CPU.Build.0 = Debug|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.CWS Dev Check In|Any CPU.ActiveCfg = Dev|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.CWS Dev Check In|Any CPU.Build.0 = Dev|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.HBL Lead Prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.HBL Lead Prod|Any CPU.Build.0 = Debug|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.NexLead|Any CPU.ActiveCfg = NexLead|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.NexLead|Any CPU.Build.0 = NexLead|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Setia Eco Park Lead|Any CPU.ActiveCfg = Debug|Any CPU
+		{B511A56A-6295-4547-A855-57F523748BCD}.Setia Eco Park Lead|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {319C3836-FBE7-4DF4-A901-E6E4BF6310D7}
+	EndGlobalSection
+EndGlobal
