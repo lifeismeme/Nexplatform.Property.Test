@@ -37,6 +37,7 @@ namespace NexLead.Property.Test.WebApiTests
 		{
 			return new Dictionary<string, dynamic>()
 			{
+				{"Id", "9f5c75a4-0106-47b6-bdc4-cf10340f5b01" },
 				{"Salutation", "Mr"},
 				{"FullName", $"0 Test {phoneNumber}"},
 				{"Gender", "Male"},
@@ -99,7 +100,7 @@ namespace NexLead.Property.Test.WebApiTests
 			var newPhoneNumber = $"9{random.Next()}8";
 			var newData = InitUserData(newPhoneNumber);
 			var userId = oldUser.Id;
-			newData.Add("Id", userId);
+			newData["Id"] = userId;
 			newData["MobileNo"] = data["MobileNo"];
 
 			//Act
@@ -140,7 +141,7 @@ namespace NexLead.Property.Test.WebApiTests
 				UserGroupName = $"Test Group - {random.Next()}",
 				Description = "description here hello test",
 				ProjectNames = new string[] { "Sunsuria Forum Corporate Office" },
-				RoleIds = new string[] { "5bd215fb-74e3-11eb-8cda-02da6901545c" },
+				//RoleIds = new string[] { "5bd215fb-74e3-11eb-8cda-02da6901545c" },
 				UserIds = new string[] { "06529711-db74-47ed-b91d-febc33ffd765" }
 			};
 		}
@@ -176,7 +177,7 @@ namespace NexLead.Property.Test.WebApiTests
 
 			Assert.NotNull(userGroup);
 			Assert.Equal(data.UserGroupName, userGroup.UserGroupName);
-			Assert.Equal(data.RoleIds, userGroup.RoleIds);
+			//Assert.Equal(data.RoleIds, userGroup.RoleIds);
 			Assert.Equal(data.UserIds, userGroup.UserIds);
 			Assert.Equal(data.ProjectNames, userGroup.ProjectNames);
 			Assert.Equal(data.Description, userGroup.Description);
